@@ -1,8 +1,8 @@
-# Network Traffic Simulator for Telecom
+Network Traffic Simulator for Telecom
 
 A real-time network traffic simulator designed for telecommunications companies to visualize and analyze network performance. Built with Node.js/Express backend and React frontend, featuring live data updates via WebSocket connections.
 
-## 🚀 Features
+Features
 
 - **Real-time Network Visualization**: Interactive SVG-based topology display with 5 interconnected nodes (A, B, C, D, E)
 - **Dynamic Statistics**: Live updates of packet counts, latency, throughput, and loss rates
@@ -12,7 +12,7 @@ A real-time network traffic simulator designed for telecommunications companies 
 - **Performance Metrics**: Comprehensive analytics dashboard with exportable data
 - **WebSocket Communication**: Real-time bidirectional communication between client and server
 
-## 🏗️ Architecture
+ Architecture
 
 ### Backend (Node.js + Express)
 - RESTful API endpoints for simulation control
@@ -34,7 +34,7 @@ A real-time network traffic simulator designed for telecommunications companies 
 - **Packet Flow**: Real-time packet routing with congestion detection
 - **Status Indicators**: Color-coded status (active, congested, overloaded)
 
-## 📋 Requirements Fulfilled
+ Requirements Fulfilled
 
 ✅ **Simulation Engine**: Node.js/Express backend with packet transmission logic  
 ✅ **Network Topology**: 5 interconnected nodes with variable traffic loads  
@@ -51,7 +51,7 @@ A real-time network traffic simulator designed for telecommunications companies 
 - **Validation**: Zod for runtime type checking
 - **Routing**: Wouter for client-side navigation
 
-## 🚀 Getting Started
+ Getting Started
 
 ### Prerequisites
 - Node.js (v20 or higher)
@@ -123,7 +123,7 @@ The simulator tracks and displays:
 - **Queue Status**: Real-time queue utilization per node
 - **Link Load**: Traffic percentage per network link
 
-## 🎯 Assignment Compliance
+ Assignment Compliance
 
 This project fulfills all requirements specified in the DigiPlusIT assignment:
 
@@ -133,11 +133,11 @@ This project fulfills all requirements specified in the DigiPlusIT assignment:
 4. ✅ **Algorithm Implementation**: Shortest path routing and congestion control
 5. ✅ **Deployment Ready**: Configured for cloud platform deployment
 
-## 📝 License
+ License
 
 This project is developed as part of an assignment for DigiPlusIT.
 
-## 👨‍💻 Developer
+ Developer
 
 Created within 3 hours as specified in the assignment requirements, demonstrating proficiency in:
 - Full-stack web development
