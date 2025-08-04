@@ -1,0 +1,12 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "node dist/server.js"
+healthcheckPath = "/api/network-stats"
+healthcheckTimeout = 100
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
+
+[build.env]
+NODE_ENV = "production"

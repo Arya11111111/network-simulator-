@@ -1,0 +1,22 @@
+{
+  "name": "network-traffic-simulator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Real-time telecommunications network traffic simulator",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "vite build",
+    "build:backend": "esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/server.js",
+    "postinstall": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "latest",
+    "ws": "latest"
+  }
+}
